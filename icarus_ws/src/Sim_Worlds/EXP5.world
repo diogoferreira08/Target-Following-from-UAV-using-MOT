@@ -1,0 +1,482 @@
+<?xml version="1.0" ?>
+<?xml-model href="http://sdformat.org/schemas/root.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<sdf version="1.5">
+    <world name="default">
+        <!-- Add your plugin and other elements here -->
+            <plugin name="mrs_gazebo_static_transform_republisher_plugin" filename="libMRSGazeboStaticTransformRepublisher.so"/>
+
+            <!-- coordinate system {-->
+            <spherical_coordinates>
+            <surface_model>EARTH_WGS84</surface_model>
+            <latitude_deg>47.397743</latitude_deg>
+            <longitude_deg>8.545594</longitude_deg>
+            <elevation>0.0</elevation>
+            <heading_deg>0</heading_deg>
+            </spherical_coordinates>
+            <!--}-->
+
+            <!-- physics engine {-->
+            <physics name="default_physics" default="0" type="ode">
+            <gravity>0 0 -9.8066</gravity>
+            <ode>
+                <solver>
+                <type>quick</type>
+                <iters>10</iters>
+                <sor>1.3</sor>
+                <use_dynamic_moi_rescaling>0</use_dynamic_moi_rescaling>
+                </solver>
+                <constraints>
+                <cfm>0</cfm>
+                <erp>0.2</erp>
+                <contact_max_correcting_vel>1000</contact_max_correcting_vel>
+                <contact_surface_layer>0.001</contact_surface_layer>
+                </constraints>
+            </ode>
+            <max_step_size>0.004</max_step_size>
+            <real_time_factor>1</real_time_factor>
+            <real_time_update_rate>250</real_time_update_rate>
+            <magnetic_field>6.0e-06 2.3e-05 -4.2e-05</magnetic_field>
+            </physics>
+            <!--}-->
+
+            <!-- setup shadows {-->
+            <scene>
+            <shadows>false</shadows>
+            <sky>
+                <clouds/>
+            </sky>
+            </scene>
+            <!--}-->
+
+            <!-- sun {-->
+
+            <light name='sun' type='directional'>
+            <pose frame=''>0 0 1000 0.4 0.2 0</pose>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.6 0.6 0.6 1</specular>
+            <direction>0.1 0.1 -0.9</direction>
+            <attenuation>
+                <range>20</range>
+                <constant>0.5</constant>
+                <linear>0.01</linear>
+                <quadratic>0.001</quadratic>
+            </attenuation>
+            <cast_shadows>1</cast_shadows>
+            </light>
+
+            <!--}-->
+
+            <!-- ground plane {-->
+            <model name="ground_plane">
+            <static>true</static>
+            <link name="link">
+                <collision name="collision">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <plane>
+                    <normal>0 0 1</normal>
+                    <size>250 250</size>
+                    </plane>
+                </geometry>
+                <surface>
+                    <friction>
+                    <ode>
+                        <mu>1</mu>
+                        <mu2>1</mu2>
+                    </ode>
+                    </friction>
+                </surface>
+                </collision>
+                <visual name="grass">
+                <pose>0 0 0 0 0 0</pose>
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <mesh>
+                    <uri>file://grass_plane/meshes/grass_plane.dae</uri>
+                    </mesh>
+                </geometry>
+                <!-- <material> -->
+                <!--   <script> -->
+                <!--     <uri>file://media/materials/scripts/Gazebo.material</uri> -->
+                <!--     <name>Gazebo/Grass</name> -->
+                <!--   </script> -->
+                <!-- </material> -->
+                </visual>
+            </link>
+            </model>
+            <!--}-->
+                <actor name="actor_walking1">
+                    <skin>
+                        <filename>https://fuel.gazebosim.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+                        <scale>1.0</scale>
+                    </skin>
+                    <animation name="walk">
+                        <filename>https://fuel.gazebosim.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+                        <interpolate_x>true</interpolate_x>
+                    </animation>
+                    <script>
+                        <loop>true</loop>
+                        <delay_start>0.000000</delay_start>
+                        <auto_start>true</auto_start>
+                   	<trajectory id='0' type='walk' tension='1'>
+		<waypoint>
+			<time>0</time>
+			<pose>3.89 17.13 0 0 0 3.09</pose>
+		</waypoint>
+		<waypoint>
+			<time>7.405903897342339</time>
+			<pose>0.00 17.34 0 0 0 3.09</pose>
+		</waypoint>
+		<waypoint>
+			<time>7.905903897342339</time>
+			<pose>0.00 17.34 0 0 0 1.57</pose>
+		</waypoint>
+		<waypoint>
+			<time>13.612971313620172</time>
+			<pose>0.00 17.53 0 0 0 1.57</pose>
+		</waypoint>
+		<waypoint>
+			<time>14.112971313620172</time>
+			<pose>0.00 17.53 0 0 0 -0.68</pose>
+		</waypoint>
+		<waypoint>
+			<time>15.867045878768625</time>
+			<pose>1.49 16.34 0 0 0 -0.68</pose>
+		</waypoint>
+		<waypoint>
+			<time>16.367045878768625</time>
+			<pose>1.49 16.34 0 0 0 -2.00</pose>
+		</waypoint>
+		<waypoint>
+			<time>20.59816433044436</time>
+			<pose>0.00 13.10 0 0 0 -2.00</pose>
+		</waypoint>
+		<waypoint>
+			<time>21.09816433044436</time>
+			<pose>0.00 13.10 0 0 0 -0.83</pose>
+		</waypoint>
+		<waypoint>
+			<time>30.852924193571745</time>
+			<pose>7.52 4.83 0 0 0 -0.83</pose>
+		</waypoint>
+		<waypoint>
+			<time>31.352924193571745</time>
+			<pose>7.52 4.83 0 0 0 -2.21</pose>
+		</waypoint>
+		<waypoint>
+			<time>32.32192617421732</time>
+			<pose>6.93 4.04 0 0 0 -2.21</pose>
+		</waypoint>
+		<waypoint>
+			<time>32.82192617421732</time>
+			<pose>6.93 4.04 0 0 0 0.64</pose>
+		</waypoint>
+		<waypoint>
+			<time>40.55048153457491</time>
+			<pose>13.11 8.67 0 0 0 0.64</pose>
+		</waypoint>
+		<waypoint>
+			<time>41.05048153457491</time>
+			<pose>13.11 8.67 0 0 0 0.04</pose>
+		</waypoint>
+		<waypoint>
+			<time>41.57596944809566</time>
+			<pose>13.67 8.70 0 0 0 0.04</pose>
+		</waypoint>
+		<waypoint>
+			<time>42.07596944809566</time>
+			<pose>13.67 8.70 0 0 0 3.10</pose>
+		</waypoint>
+		<waypoint>
+			<time>50.62830315269198</time>
+			<pose>6.61 8.97 0 0 0 3.10</pose>
+		</waypoint>
+		<waypoint>
+			<time>51.12830315269198</time>
+			<pose>6.61 8.97 0 0 0 1.89</pose>
+		</waypoint>
+		<waypoint>
+			<time>57.799676438230144</time>
+			<pose>3.89 17.13 0 0 0 1.89</pose>
+		</waypoint>
+	</trajectory>
+</script>
+                </actor><actor name="actor_walking2">
+                    <skin>
+                        <filename>https://fuel.gazebosim.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+                        <scale>1.0</scale>
+                    </skin>
+                    <animation name="walk">
+                        <filename>https://fuel.gazebosim.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+                        <interpolate_x>true</interpolate_x>
+                    </animation>
+                    <script>
+                        <loop>true</loop>
+                        <delay_start>0.000000</delay_start>
+                        <auto_start>true</auto_start>
+                   	<trajectory id='1' type='walk' tension='1'>
+		<waypoint>
+			<time>0</time>
+			<pose>14.82 5.75 0 0 0 1.58</pose>
+		</waypoint>
+		<waypoint>
+			<time>16.422396941165186</time>
+			<pose>14.73 24.39 0 0 0 1.58</pose>
+		</waypoint>
+		<waypoint>
+			<time>16.922396941165186</time>
+			<pose>14.73 24.39 0 0 0 0.65</pose>
+		</waypoint>
+		<waypoint>
+			<time>25.387825688278802</time>
+			<pose>21.41 29.43 0 0 0 0.65</pose>
+		</waypoint>
+		<waypoint>
+			<time>25.887825688278802</time>
+			<pose>21.41 29.43 0 0 0 -2.96</pose>
+		</waypoint>
+		<waypoint>
+			<time>37.408069546475005</time>
+			<pose>9.45 27.23 0 0 0 -2.96</pose>
+		</waypoint>
+		<waypoint>
+			<time>37.908069546475005</time>
+			<pose>9.45 27.23 0 0 0 -0.58</pose>
+		</waypoint>
+		<waypoint>
+			<time>46.641668865884185</time>
+			<pose>15.82 23.07 0 0 0 -0.58</pose>
+		</waypoint>
+		<waypoint>
+			<time>47.141668865884185</time>
+			<pose>15.82 23.07 0 0 0 -2.58</pose>
+		</waypoint>
+		<waypoint>
+			<time>65.89442969719423</time>
+			<pose>0.45 13.40 0 0 0 -2.58</pose>
+		</waypoint>
+		<waypoint>
+			<time>66.39442969719423</time>
+			<pose>0.45 13.40 0 0 0 -0.49</pose>
+		</waypoint>
+		<waypoint>
+			<time>79.45679722266485</time>
+			<pose>14.82 5.75 0 0 0 -0.49</pose>
+		</waypoint>
+	</trajectory>
+</script>
+                </actor><actor name="actor_walking3">
+                    <skin>
+                        <filename>https://fuel.gazebosim.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+                        <scale>1.0</scale>
+                    </skin>
+                    <animation name="walk">
+                        <filename>https://fuel.gazebosim.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+                        <interpolate_x>true</interpolate_x>
+                    </animation>
+                    <script>
+                        <loop>true</loop>
+                        <delay_start>0.000000</delay_start>
+                        <auto_start>true</auto_start>
+                   	<trajectory id='2' type='walk' tension='1'>
+		<waypoint>
+			<time>0</time>
+			<pose>20.68 24.89 0 0 0 -3.07</pose>
+		</waypoint>
+		<waypoint>
+			<time>2.943238519431725</time>
+			<pose>18.13 24.71 0 0 0 -3.07</pose>
+		</waypoint>
+		<waypoint>
+			<time>3.443238519431725</time>
+			<pose>18.13 24.71 0 0 0 1.56</pose>
+		</waypoint>
+		<waypoint>
+			<time>3.6023830467120512</time>
+			<pose>18.13 24.89 0 0 0 1.56</pose>
+		</waypoint>
+		<waypoint>
+			<time>4.102383046712051</time>
+			<pose>18.13 24.89 0 0 0 0.46</pose>
+		</waypoint>
+		<waypoint>
+			<time>7.106042073223958</time>
+			<pose>20.77 26.21 0 0 0 0.46</pose>
+		</waypoint>
+		<waypoint>
+			<time>7.606042073223958</time>
+			<pose>20.77 26.21 0 0 0 -1.13</pose>
+		</waypoint>
+		<waypoint>
+			<time>13.523264265427677</time>
+			<pose>23.02 21.49 0 0 0 -1.13</pose>
+		</waypoint>
+		<waypoint>
+			<time>14.023264265427677</time>
+			<pose>23.02 21.49 0 0 0 -2.80</pose>
+		</waypoint>
+		<waypoint>
+			<time>19.859557770736156</time>
+			<pose>16.94 19.34 0 0 0 -2.80</pose>
+		</waypoint>
+		<waypoint>
+			<time>20.359557770736156</time>
+			<pose>16.94 19.34 0 0 0 1.54</pose>
+		</waypoint>
+		<waypoint>
+			<time>29.369992293529652</time>
+			<pose>17.26 28.22 0 0 0 1.54</pose>
+		</waypoint>
+		<waypoint>
+			<time>29.869992293529652</time>
+			<pose>17.26 28.22 0 0 0 -3.12</pose>
+		</waypoint>
+		<waypoint>
+			<time>33.324317675825206</time>
+			<pose>14.41 28.16 0 0 0 -3.12</pose>
+		</waypoint>
+		<waypoint>
+			<time>33.824317675825206</time>
+			<pose>14.41 28.16 0 0 0 -2.91</pose>
+		</waypoint>
+		<waypoint>
+			<time>43.87891405989041</time>
+			<pose>3.31 25.59 0 0 0 -2.91</pose>
+		</waypoint>
+		<waypoint>
+			<time>44.37891405989041</time>
+			<pose>3.31 25.59 0 0 0 -0.09</pose>
+		</waypoint>
+		<waypoint>
+			<time>49.742997314260876</time>
+			<pose>7.90 25.20 0 0 0 -0.09</pose>
+		</waypoint>
+		<waypoint>
+			<time>50.242997314260876</time>
+			<pose>7.90 25.20 0 0 0 -0.02</pose>
+		</waypoint>
+		<waypoint>
+			<time>60.39720440034735</time>
+			<pose>20.68 24.89 0 0 0 -0.02</pose>
+		</waypoint>
+	</trajectory>
+</script>
+                </actor><actor name="actor_walking4">
+                    <skin>
+                        <filename>https://fuel.gazebosim.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+                        <scale>1.0</scale>
+                    </skin>
+                    <animation name="walk">
+                        <filename>https://fuel.gazebosim.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+                        <interpolate_x>true</interpolate_x>
+                    </animation>
+                    <script>
+                        <loop>true</loop>
+                        <delay_start>0.000000</delay_start>
+                        <auto_start>true</auto_start>
+                   	<trajectory id='3' type='walk' tension='1'>
+		<waypoint>
+			<time>0</time>
+			<pose>22.79 26.58 0 0 0 -2.37</pose>
+		</waypoint>
+		<waypoint>
+			<time>0.9371495751246504</time>
+			<pose>22.01 25.83 0 0 0 -2.37</pose>
+		</waypoint>
+		<waypoint>
+			<time>1.4371495751246504</time>
+			<pose>22.01 25.83 0 0 0 -0.81</pose>
+		</waypoint>
+		<waypoint>
+			<time>7.005409769894747</time>
+			<pose>25.39 22.27 0 0 0 -0.81</pose>
+		</waypoint>
+		<waypoint>
+			<time>7.505409769894747</time>
+			<pose>25.39 22.27 0 0 0 2.96</pose>
+		</waypoint>
+		<waypoint>
+			<time>11.163856346867561</time>
+			<pose>22.51 22.82 0 0 0 2.96</pose>
+		</waypoint>
+		<waypoint>
+			<time>11.663856346867561</time>
+			<pose>22.51 22.82 0 0 0 -0.99</pose>
+		</waypoint>
+		<waypoint>
+			<time>24.05742387346134</time>
+			<pose>28.36 13.84 0 0 0 -0.99</pose>
+		</waypoint>
+		<waypoint>
+			<time>24.55742387346134</time>
+			<pose>28.36 13.84 0 0 0 2.39</pose>
+		</waypoint>
+		<waypoint>
+			<time>29.07071094232886</time>
+			<pose>24.44 17.48 0 0 0 2.39</pose>
+		</waypoint>
+		<waypoint>
+			<time>29.57071094232886</time>
+			<pose>24.44 17.48 0 0 0 2.52</pose>
+		</waypoint>
+		<waypoint>
+			<time>45.402541619710476</time>
+			<pose>10.89 27.15 0 0 0 2.52</pose>
+		</waypoint>
+		<waypoint>
+			<time>45.902541619710476</time>
+			<pose>10.89 27.15 0 0 0 -0.05</pose>
+		</waypoint>
+		<waypoint>
+			<time>55.33021799145311</time>
+			<pose>22.79 26.58 0 0 0 -0.05</pose>
+		</waypoint>
+	</trajectory>
+</script>
+                </actor>
+                       <!-- THE VOID (for spawning objects out of camera view) {-->
+            <model name='the_void'>
+            <static>1</static>
+            <link name='link'>
+                <pose frame=''>0 0 0.1 0 -0 0</pose>
+                <visual name='the_void'>
+                <pose frame=''>0 0 2 0 -0 0</pose>
+                <geometry>
+                    <sphere>
+                    <radius>0.25</radius>
+                    </sphere>
+                </geometry>
+                <material>
+                    <script>
+                    <uri>file://media/materials/scripts/Gazebo.material</uri>
+                    <name>Gazebo/Black</name>
+                    </script>
+                </material>
+                </visual>
+                <self_collide>0</self_collide>
+                <enable_wind>0</enable_wind>
+                <kinematic>0</kinematic>
+            </link>
+            <pose frame=''>-1000 -1000 0 0 0 0</pose>
+            </model>
+            <!--}-->
+
+            <!-- user camera {-->
+            <gui>
+            <camera name="camera">
+                <pose>-60 -100 30 0 0.4 0.89</pose>
+            </camera>
+            </gui>
+            <!--}-->
+
+            <!-- GUI frame synchronization {-->
+            <plugin name="mrs_gazebo_rviz_cam_synchronizer" filename="libMRSGazeboRvizCameraSynchronizer.so" >
+            <target_frame_id>gazebo_user_camera</target_frame_id>
+            <world_origin_frame_id>uav1/gps_origin</world_origin_frame_id>
+            <frame_to_follow>uav1</frame_to_follow>
+            </plugin>
+            <!--}-->
+
+        </world>
+        </sdf>
+        
