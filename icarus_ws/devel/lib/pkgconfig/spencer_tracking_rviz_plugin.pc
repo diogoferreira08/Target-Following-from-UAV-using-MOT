@@ -1,0 +1,1 @@
+/home/diogocf/icarus_ws/devel/.private/spencer_tracking_rviz_plugin/lib/pkgconfig/spencer_tracking_rviz_plugin.pc

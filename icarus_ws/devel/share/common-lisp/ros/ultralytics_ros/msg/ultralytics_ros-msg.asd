@@ -1,0 +1,1 @@
+/home/diogocf/icarus_ws/devel/.private/ultralytics_ros/share/common-lisp/ros/ultralytics_ros/msg/ultralytics_ros-msg.asd

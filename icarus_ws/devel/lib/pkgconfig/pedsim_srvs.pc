@@ -1,0 +1,1 @@
+/home/diogocf/icarus_ws/devel/.private/pedsim_srvs/lib/pkgconfig/pedsim_srvs.pc

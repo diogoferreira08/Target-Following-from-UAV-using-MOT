@@ -1,0 +1,1 @@
+/home/diogocf/icarus_ws/devel/.private/spencer_human_attribute_msgs/lib/pkgconfig/spencer_human_attribute_msgs.pc

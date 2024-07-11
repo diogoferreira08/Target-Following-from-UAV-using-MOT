@@ -1,0 +1,8 @@
+prefix=/home/diogocf/icarus_ws/devel/.private/yolov5_ros
+
+Name: yolov5_ros
+Description: Description of yolov5_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

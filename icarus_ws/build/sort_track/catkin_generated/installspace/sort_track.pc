@@ -1,0 +1,8 @@
+prefix=/home/diogocf/icarus_ws/install
+
+Name: sort_track
+Description: Description of sort_track
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs sensor_msgs cv_bridge message_runtime

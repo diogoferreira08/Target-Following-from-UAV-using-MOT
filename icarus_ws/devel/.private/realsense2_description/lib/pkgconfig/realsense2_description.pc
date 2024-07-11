@@ -1,0 +1,8 @@
+prefix=/home/diogocf/icarus_ws/devel/.private/realsense2_description
+
+Name: realsense2_description
+Description: Description of realsense2_description
+Version: 2.3.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

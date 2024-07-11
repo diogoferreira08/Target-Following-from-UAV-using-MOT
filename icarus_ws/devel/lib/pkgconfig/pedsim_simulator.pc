@@ -1,0 +1,1 @@
+/home/diogocf/icarus_ws/devel/.private/pedsim_simulator/lib/pkgconfig/pedsim_simulator.pc

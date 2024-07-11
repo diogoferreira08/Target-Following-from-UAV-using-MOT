@@ -1,0 +1,9 @@
+Not searching for unused variables given on the command line.
+[33mCMake Warning:
+  Ignoring extra path from command line:
+
+   "/home/diogocf/icarus_ws/src/std_msgs"
+
+[0m
+[0mCMake Error: The source directory "/home/diogocf/icarus_ws/src/std_msgs" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.[0m

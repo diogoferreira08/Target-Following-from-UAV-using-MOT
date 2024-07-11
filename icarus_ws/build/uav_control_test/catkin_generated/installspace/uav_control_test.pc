@@ -1,0 +1,8 @@
+prefix=/home/diogocf/icarus_ws/install
+
+Name: uav_control_test
+Description: Description of uav_control_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/diogocf/icarus_ws/devel/.private/talker_test
+
+Name: talker_test
+Description: Description of talker_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

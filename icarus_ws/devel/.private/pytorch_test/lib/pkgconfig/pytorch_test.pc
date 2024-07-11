@@ -1,0 +1,8 @@
+prefix=/home/diogocf/icarus_ws/devel/.private/pytorch_test
+
+Name: pytorch_test
+Description: Description of pytorch_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

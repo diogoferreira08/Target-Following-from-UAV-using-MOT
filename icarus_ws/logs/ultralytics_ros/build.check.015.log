@@ -1,0 +1,126 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/diogocf/icarus_ws/devel/.private/ultralytics_ros
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/diogocf/icarus_ws/devel;/home/diogocf/modules_workspace/devel;/home/diogocf/mrs_workspace/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/diogocf/icarus_ws/devel;/home/diogocf/modules_workspace/devel;/home/diogocf/mrs_workspace/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/diogocf/icarus_ws/build/ultralytics_ros/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[0mCMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:45 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:56 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")
+[36m--[0m Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[36m--[0m Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex
+[36m--[0m The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[36m--[0m OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[0m** WARNING ** io features related to png will be disabled[0m
+[0m** WARNING ** io features related to libusb-1.0 will be disabled[0m
+[36m--[0m OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[36m--[0m OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[36m--[0m QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[36m--[0m OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[36m--[0m looking for PCL_COMMON
+[36m--[0m looking for PCL_KDTREE
+[36m--[0m looking for PCL_OCTREE
+[36m--[0m looking for PCL_SEARCH
+[36m--[0m looking for PCL_SAMPLE_CONSENSUS
+[36m--[0m looking for PCL_FILTERS
+[36m--[0m looking for PCL_2D
+[36m--[0m looking for PCL_GEOMETRY
+[36m--[0m looking for PCL_IO
+[36m--[0m looking for PCL_FEATURES
+[36m--[0m looking for PCL_ML
+[36m--[0m looking for PCL_SEGMENTATION
+[36m--[0m looking for PCL_VISUALIZATION
+[36m--[0m looking for PCL_SURFACE
+[36m--[0m looking for PCL_REGISTRATION
+[36m--[0m looking for PCL_KEYPOINTS
+[36m--[0m looking for PCL_TRACKING
+[36m--[0m looking for PCL_RECOGNITION
+[36m--[0m looking for PCL_STEREO
+[36m--[0m looking for PCL_APPS
+[36m--[0m looking for PCL_IN_HAND_SCANNER
+[36m--[0m looking for PCL_POINT_CLOUD_EDITOR
+[36m--[0m looking for PCL_OUTOFCORE
+[36m--[0m looking for PCL_PEOPLE
+[36m--[0m ultralytics_ros: 1 messages, 0 services
+[36m--[0m Configuring done (1.6s)
+[36m--[0m Generating done (0.2s)
+[36m--[0m Build files have been written to: /home/diogocf/icarus_ws/build/ultralytics_ros

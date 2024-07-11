@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/diogocf/icarus_ws/devel/.private/pytorch_test/setup.sh

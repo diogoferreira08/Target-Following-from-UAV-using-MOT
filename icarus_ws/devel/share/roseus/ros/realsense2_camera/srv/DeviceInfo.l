@@ -1,0 +1,1 @@
+/home/diogocf/icarus_ws/devel/.private/realsense2_camera/share/roseus/ros/realsense2_camera/srv/DeviceInfo.l

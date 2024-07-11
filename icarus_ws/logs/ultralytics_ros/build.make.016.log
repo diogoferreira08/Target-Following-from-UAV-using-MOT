@@ -1,0 +1,32 @@
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target vision_msgs_generate_messages_cpp
+[  0%] Built target vision_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target vision_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target vision_msgs_generate_messages_nodejs
+[  0%] Built target vision_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target _ultralytics_ros_generate_messages_check_deps_YoloResult
+[ 11%] [34m[1mGenerating Lisp code from ultralytics_ros/YoloResult.msg[0m
+[ 33%] [34m[1mGenerating Javascript code from ultralytics_ros/YoloResult.msg[0m
+[ 33%] [34m[1mGenerating EusLisp manifest code for ultralytics_ros[0m
+[ 44%] [34m[1mGenerating EusLisp code from ultralytics_ros/YoloResult.msg[0m
+[ 55%] [34m[1mGenerating C++ code from ultralytics_ros/YoloResult.msg[0m
+[ 66%] [34m[1mGenerating Python from MSG ultralytics_ros/YoloResult[0m
+[ 66%] Built target ultralytics_ros_generate_messages_lisp
+[ 66%] Built target ultralytics_ros_generate_messages_nodejs
+[ 66%] Built target ultralytics_ros_generate_messages_cpp
+[ 77%] [34m[1mGenerating Python msg __init__.py for ultralytics_ros[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/tracker_with_cloud_node.dir/src/tracker_with_cloud_node.cpp.o[0m
+[ 88%] Built target ultralytics_ros_generate_messages_py
+[ 88%] Built target ultralytics_ros_generate_messages_eus
+[ 88%] Built target ultralytics_ros_generate_messages
+[100%] [32m[1mLinking CXX executable /home/diogocf/icarus_ws/devel/.private/ultralytics_ros/lib/ultralytics_ros/tracker_with_cloud_node[0m
+[100%] Built target tracker_with_cloud_node

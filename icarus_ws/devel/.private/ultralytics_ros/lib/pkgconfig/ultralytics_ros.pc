@@ -1,0 +1,8 @@
+prefix=/home/diogocf/icarus_ws/devel/.private/ultralytics_ros
+
+Name: ultralytics_ros
+Description: Description of ultralytics_ros
+Version: 0.0.0
+Cflags: -I/home/diogocf/icarus_ws/devel/.private/ultralytics_ros/include -I/home/diogocf/icarus_ws/src/ultralytics_ros/include
+Libs: -L${prefix}/lib 
+Requires: cv_bridge geometry_msgs image_geometry image_transport message_filters message_runtime pcl_ros roscpp rospy sensor_msgs std_msgs tf2_ros vision_msgs visualization_msgs

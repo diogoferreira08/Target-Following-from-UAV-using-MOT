@@ -1,0 +1,1 @@
+/home/diogocf/icarus_ws/devel/.private/pedsim_msgs/lib/pkgconfig/pedsim_msgs.pc

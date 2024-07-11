@@ -1,0 +1,1 @@
+/home/diogocf/icarus_ws/devel/.private/pedsim_sensors/lib/pkgconfig/pedsim_sensors.pc

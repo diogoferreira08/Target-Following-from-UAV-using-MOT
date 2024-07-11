@@ -1,0 +1,1 @@
+/home/diogocf/icarus_ws/devel/.private/spencer_vision_msgs/lib/pkgconfig/spencer_vision_msgs.pc

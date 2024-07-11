@@ -1,0 +1,21 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _detection_msgs_generate_messages_check_deps_BoundingBox
+[  0%] Built target _detection_msgs_generate_messages_check_deps_BoundingBoxes
+[  0%] Built target _detection_msgs_generate_messages_check_deps_PublishData
+[  0%] Built target _detection_msgs_generate_messages_check_deps_Publish_Data
+[ 13%] [34m[1mGenerating Python from MSG detection_msgs/Publish_Data[0m
+[ 13%] [34m[1mGenerating C++ code from detection_msgs/Publish_Data.msg[0m
+[ 18%] [34m[1mGenerating Lisp code from detection_msgs/Publish_Data.msg[0m
+[ 13%] [34m[1mGenerating EusLisp code from detection_msgs/Publish_Data.msg[0m
+[ 22%] [34m[1mGenerating Javascript code from detection_msgs/Publish_Data.msg[0m
+[ 36%] Built target detection_msgs_generate_messages_nodejs
+[ 50%] Built target detection_msgs_generate_messages_lisp
+[ 68%] Built target detection_msgs_generate_messages_eus
+[ 81%] Built target detection_msgs_generate_messages_cpp
+[ 86%] [34m[1mGenerating Python msg __init__.py for detection_msgs[0m
+[100%] Built target detection_msgs_generate_messages_py
+[100%] Built target detection_msgs_generate_messages

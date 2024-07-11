@@ -1,0 +1,60 @@
+In file included from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_sensor.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/diogocf/icarus_ws/src/realsense-ros/realsense2_camera/include/../include/realsense_node_factory.h:12[m[K,
+                 from [01m[K/home/diogocf/icarus_ws/src/realsense-ros/realsense2_camera/include/base_realsense_node.h:6[m[K,
+                 from [01m[K/home/diogocf/icarus_ws/src/realsense-ros/realsense2_camera/src/../include/t265_realsense_node.h:3[m[K,
+                 from [01m[K/home/diogocf/icarus_ws/src/realsense-ros/realsense2_camera/src/t265_realsense_node.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1047:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1047 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1069:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1069 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1091:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1091 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_sensor.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/diogocf/icarus_ws/src/realsense-ros/realsense2_camera/src/../include/realsense_node_factory.h:12[m[K,
+                 from [01m[K/home/diogocf/icarus_ws/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp:4[m[K:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1047:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1047 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1069:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1069 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1091:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1091 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_sensor.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/diogocf/icarus_ws/src/realsense-ros/realsense2_camera/src/../include/../include/realsense_node_factory.h:12[m[K,
+                 from [01m[K/home/diogocf/icarus_ws/src/realsense-ros/realsense2_camera/src/../include/base_realsense_node.h:6[m[K,
+                 from [01m[K/home/diogocf/icarus_ws/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1047:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1047 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1069:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1069 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1091:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1091 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

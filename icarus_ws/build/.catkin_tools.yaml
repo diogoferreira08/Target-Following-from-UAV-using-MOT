@@ -1,0 +1,6 @@
+devel_space: /home/diogocf/icarus_ws/devel
+install: false
+install_space: /home/diogocf/icarus_ws/install
+profile: default
+source_space: /home/diogocf/icarus_ws/src
+workspace: /home/diogocf/icarus_ws

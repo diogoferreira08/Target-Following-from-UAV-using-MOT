@@ -1,0 +1,1 @@
+/home/diogocf/icarus_ws/devel/.private/spencer_social_relation_msgs/lib/pkgconfig/spencer_social_relation_msgs.pc

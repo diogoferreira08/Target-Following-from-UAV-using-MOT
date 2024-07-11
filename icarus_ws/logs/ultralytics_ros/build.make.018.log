@@ -1,0 +1,23 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target vision_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target vision_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target vision_msgs_generate_messages_eus
+[  0%] Built target vision_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target vision_msgs_generate_messages_nodejs
+[  0%] Built target _ultralytics_ros_generate_messages_check_deps_YoloResult
+[ 22%] Built target ultralytics_ros_generate_messages_cpp
+[ 33%] Built target ultralytics_ros_generate_messages_py
+[ 44%] Built target ultralytics_ros_generate_messages_lisp
+[ 66%] Built target ultralytics_ros_generate_messages_eus
+[ 77%] Built target ultralytics_ros_generate_messages_nodejs
+[ 77%] Built target ultralytics_ros_generate_messages
+[100%] Built target tracker_with_cloud_node
