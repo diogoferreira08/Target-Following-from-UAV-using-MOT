@@ -17,7 +17,9 @@ This tmux scrip will run the realsense node, the yolov8 node and the follow_targ
 
 
 
-BIBTEX Citation:
+BIBTEX Citations:
+
+Leveraging Multi-Object Tracking in Vision-based Target Following for Unmanned Aerial Vehicles: conference paper showing simulation results:
 
 @INPROCEEDINGS{10535936,
   author={Ferreira, Diogo and Basiri, Meysam},
