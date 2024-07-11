@@ -14,3 +14,19 @@ In the real-world experiments, setup the workspace and run:
 *   ./start.sh
 
 This tmux scrip will run the realsense node, the yolov8 node and the follow_target node which is the main function containing the image post processing, control and redetection algorithms.
+
+
+
+BIBTEX Citation:
+
+@INPROCEEDINGS{10535936,
+  author={Ferreira, Diogo and Basiri, Meysam},
+  booktitle={2024 IEEE International Conference on Autonomous Robot Systems and Competitions (ICARSC)}, 
+  title={Leveraging Multi-Object Tracking in Vision-based Target Following for Unmanned Aerial Vehicles}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={88-93},
+  keywords={YOLO;Visualization;Target tracking;Three-dimensional displays;Heuristic algorithms;Autonomous aerial vehicles;Solids;UAV;Multi-Object Tracking;YOLOv8;BoT-SORT;Flight Control;MTT},
+  doi={10.1109/ICARSC61747.2024.10535936}}
+
